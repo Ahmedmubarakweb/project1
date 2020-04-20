@@ -65,9 +65,29 @@ header .nav-link:hover{
 }
 
 /*first section*/
+.bread_crumbs_list{
+    padding: 1rem 1rem;
+    list-style:none;
+}
+.bread_crumbs_list li{
+    display: inline;
+    font-size: 18px;
+}
+.bread_crumbs_list li+li:before{
+    padding:8px;
+    color: black;
+    content:">\00a0";
+}
+.bread_crumbs_list li a{
+    text-decoration: none;
+    color:#6b2425;
+}
+.bread_crumbs_list li a:hover{
+    font-weight: bold;
+}
 .first-section{
-    margin: 7rem 0;
-    padding:1rem 0;
+    margin: 6rem 0 0;
+    padding: 0;
     text-align: center;
 }
 .first-section .info p{
@@ -119,8 +139,6 @@ background-size: cover;
 }
 /*about*/
 .about{
-    margin:2rem auto;
-    background-color: white;
     border-radius: 5px;
     padding:1rem 0;
 
