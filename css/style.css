@@ -23,19 +23,16 @@ header{
     background-position: center;
 }
 .navbar{
-    padding:1.5rem 4rem;
+    padding: 1.5rem 17rem;
 }
-header .nav-link{
-    text-decoration: none;
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3.5rem;
+    padding-left: .5rem;
     color: black;
-    transition: all .3s;
-    font-weight: bold;
     font-size: 1.4rem;
+    font-weight: bold;
     text-transform: uppercase;
-    display: inline-block;
-
 }
-
 header .nav-link:hover{
     color:#ffc5c9;
     padding-bottom: .5rem;
@@ -104,8 +101,8 @@ header .nav-link:hover{
 .slider{
     position: absolute;
     top: -15rem;
-    left: 10rem;
-    width:17rem;
+    left: 4rem;
+    width:25rem;
     height:10rem;
     margin-top:10rem;
 }
@@ -122,8 +119,7 @@ header .nav-link:hover{
 }
 /*full imge section*/
 .full-img{
- margin-top:15rem 0;
-height:26rem;
+height:20rem;
 background-image:url(../images/main.jpg);
 background-position: center;
 background-size: cover;
@@ -134,8 +130,8 @@ background-size: cover;
 }
 .full-img p{
     font-weight: bold;
-    padding: 12rem 2rem 1rem;
-    color: #d4c1c1;
+    padding: 6rem 2rem 0rem;
+    color: #f1f1f1;
 }
 /*about*/
 .about{
@@ -144,8 +140,9 @@ background-size: cover;
 
 }
 .about p{
-  margin:.5rem auto;
-  padding: .2rem 2rem;
+  margin:1rem auto;
+  padding: .2rem .1rem;
+  width:50%;
   text-align:center;
 color: black;
 
